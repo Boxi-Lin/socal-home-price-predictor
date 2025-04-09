@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>California Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="full-bg"></div>
+    <div class="container">
+        <form class="form">
+            <h2>Area (Square Feet)</h2>
+            <input type="text" id="uiSqft" name="Squareft" value="1000">
+
+            <h2>Beds</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-bed-1" name="uiBeds" value="1"/>
+                <label for="radio-bed-1">1</label>
+                <input type="radio" id="radio-bed-2" name="uiBeds" value="2" checked/>
+                <label for="radio-bed-2">2</label>
+                <input type="radio" id="radio-bed-3" name="uiBeds" value="3"/>
+                <label for="radio-bed-3">3</label>
+                <input type="radio" id="radio-bed-4" name="uiBeds" value="4"/>
+                <label for="radio-bed-4">4</label>
+                <input type="radio" id="radio-bed-5" name="uiBeds" value="5"/>
+                <label for="radio-bed-5">5</label>
+            </div>
+
+            <h2>Baths</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1"/>
+                <label for="radio-bath-1">1</label>
+                <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked/>
+                <label for="radio-bath-2">2</label>
+                <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3"/>
+                <label for="radio-bath-3">3</label>
+                <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4"/>
+                <label for="radio-bath-4">4</label>
+                <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5"/>
+                <label for="radio-bath-5">5</label>
+            </div>
+
+            <h2>Year Built</h2>
+            <input type="text" id="uiYearBuilt" name="YearBuilt" value="1970">
+
+            <h2>Location (City)</h2>
+            <div>
+                <select id="uiLocations" name="City">
+                    <option value="" disabled selected>Choose a Location</option>
+                    <option>Los Angeles</option>
+                    <option>Burbank</option>
+                    <option>Irvine</option>
+                    <option>San Diego</option>
+                    <!-- Add more cities as needed -->
+                </select>
+            </div>
+
+            <h2>Property Type</h2>
+            <div>
+                <select id="uiPropertyType" name="PropertyType">
+                    <option value="" disabled selected>Choose Property Type</option>
+                    <option>condo/co-op</option>
+                    <option>mobile/manufactured home</option>
+                    <option>multi-family (2-4 unit)</option>
+                    <option>multi-family (5+ unit)</option>
+                    <option>single family residential</option>
+                    <option>townhouse</option>
+                </select>
+            </div>
+
+            <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+            <div id="uiEstimatedPrice" class="result"><h2></h2></div>
+        </form>
+    </div>
+</body>
+</html>
