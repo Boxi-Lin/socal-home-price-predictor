@@ -1,64 +1,99 @@
-# 🏠 SoCal Home Price Predictor
+<!-- PROJECT SHIELDS -->
+<!--
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+-->
 
-A machine learning web app that predicts home prices in Southern California based on user input. Built with a full-stack approach using Python, Flask, scikit-learn, HTML/CSS/JS, and deployed on AWS EC2.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/YourUsername/YourRepo">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
----
+  <h3 align="center">SoCal Home Price Predictor</h3>
 
-## 📌 Table of Contents
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Deployment](#deployment)
-- [What I Learned](#what-i-learned)
+  <p align="center">
+    A machine learning web application to predict Southern California home prices.
+    <br />
+    <a href="https://github.com/YourUsername/YourRepo"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/">View Demo</a>
+    ·
+    <a href="https://github.com/YourUsername/YourRepo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/YourUsername/YourRepo/issues">Request Feature</a>
+  </p>
+</p>
 
----
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-## 📖 Overview
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The goal of this project was to develop a full end-to-end machine learning application that:
-- Trains a linear regression model on housing data
-- Exposes predictions through a Flask API
-- Accepts user input via a responsive frontend
-- Is deployed and accessible publicly via an AWS EC2 instance
+[![Product Name Screen Shot][product-screenshot]](http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/)
 
----
+The SoCal Home Price Predictor is a web application that leverages a machine learning model to estimate home prices in Southern California based on user inputs such as square footage, number of bedrooms and bathrooms, year built, and location.
 
-## 🛠 Tech Stack
+Key features include:
+- Dynamic city selection dropdown populated from the backend
+- Real-time price prediction based on user inputs
+- User-friendly interface with form validation
+- Hosted on AWS EC2 for accessibility
 
-| Area       | Tech                       |
-|------------|----------------------------|
-| Data Science | Jupyter Notebook, pandas, scikit-learn |
-| Backend    | Python, Flask, Flask-CORS  |
-| Frontend   | HTML, CSS, JavaScript      |
-| Deployment | AWS EC2, NGINX, WinSCP, GitHub |
+### Built With
 
----
+This project is built using the following technologies:
 
-## ⚙️ How It Works
+- [Flask](https://flask.palletsprojects.com/)
+- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/)
+- [NumPy](https://numpy.org/)
+- [scikit-learn](https://scikit-learn.org/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-1. **Modeling (Jupyter Notebook)**  
-   A linear regression model is trained on Southern California housing data using `scikit-learn`.
+<!-- GETTING STARTED -->
+## Getting Started
 
-2. **Backend (Flask)**  
-   A simple REST API is built to serve predictions from the trained model using user-provided features.
+To set up this project locally, follow these steps.
 
-3. **Frontend**  
-   The user can input features like square footage, location, and more into an HTML form styled with CSS and JS.
+### Prerequisites
 
-4. **Deployment**  
-   All components are deployed to an Ubuntu server on AWS EC2. Flask is served behind NGINX, and GitHub is used for version control.
+Ensure you have Python 3 installed on your machine.
 
----
+### Installation
 
-## 🧪 Installation (Local Dev)
-
-```bash
-git clone https://github.com/Boxi-Lin/socal-home-price-predictor.git
-cd socal-home-price-predictor
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python3 server.py
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/YourUsername/YourRepo.git
+   cd YourRepo
