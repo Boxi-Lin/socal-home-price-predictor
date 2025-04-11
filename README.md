@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/)
+[![Demo Screenshot](assets/demo-screenshot.png)](http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/)
 
 The SoCal Home Price Predictor is a web application that leverages a machine learning model to estimate home prices in Southern California based on user inputs such as square footage, number of bedrooms and bathrooms, year built, and location.
 
