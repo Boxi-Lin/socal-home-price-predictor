@@ -36,6 +36,11 @@ Key features:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Jupyter Notebook](https://jupyter.org/) – for model prototyping
+- [AWS EC2](https://aws.amazon.com/ec2/) – for cloud hosting
+- [Git](https://git-scm.com/) + [GitHub](https://github.com/) – for version control
+- [Visual Studio Code](https://code.visualstudio.com/) / [PyCharm](https://www.jetbrains.com/pycharm/) – for development
+
 
 ---
 
