@@ -54,3 +54,42 @@ To run the backend server locally, you'll need:
 - The following Python packages on your IDE:
   ```bash
   pip install flask flask-cors numpy scikit-learn
+
+## 🚀 How to Use
+
+To run and test the SoCal Home Price Predictor locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Boxi-Lin/socal-home-price-predictor.git
+cd socal-home-price-predictor
+```
+
+### 2. Open your IDE
+
+Open the project folder in your preferred Python IDE (e.g., VS Code or PyCharm).
+
+### 3. Install required packages
+
+In your terminal or IDE, install the required packages:
+
+```bash
+pip install flask flask-cors numpy scikit-learn
+```
+
+### 4. Run the Flask backend
+
+In your terminal, navigate to the `server` folder and run:
+
+```bash
+python server.py
+```
+
+### 5. Access the frontend
+
+Once the Flask server is running, either:
+
+- Open `client/app.html` directly in your browser
+- Or visit the live version at:  
+  [http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/](http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/)
