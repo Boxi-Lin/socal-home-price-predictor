@@ -35,7 +35,7 @@ Key features:
 - [scikit-learn](https://scikit-learn.org/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - connects the user interface to the Flask backend
 - [Jupyter Notebook](https://jupyter.org/) – for model prototyping
 - [AWS EC2](https://aws.amazon.com/ec2/) – for cloud hosting
 - [Git](https://git-scm.com/) + [GitHub](https://github.com/) – for version control
@@ -51,6 +51,6 @@ Key features:
 To run the backend server locally, you'll need:
 
 - Python 3 installed
-- The following Python packages:
+- The following Python packages on your IDE:
   ```bash
   pip install flask flask-cors numpy scikit-learn
