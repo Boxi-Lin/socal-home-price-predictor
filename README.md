@@ -10,7 +10,7 @@
   <p align="center">
     A machine learning web application to predict Southern California home prices.
     <br />
-    <a href="http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/">View Demo</a>
+    <a href="http://ec2-3-147-205-118.us-east-2.compute.amazonaws.com/">Live Site</a>
   </p>
 </p>
 
