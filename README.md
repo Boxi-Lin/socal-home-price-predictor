@@ -52,8 +52,8 @@ To run the backend server locally, you'll need:
 
 - Python 3 installed
 - The following Python packages on your IDE:
-  ```bash
-  pip install flask flask-cors numpy scikit-learn
+```bash
+pip install flask flask-cors numpy scikit-learn
 
 ## 🚀 How to Use
 
